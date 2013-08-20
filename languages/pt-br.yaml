@@ -45,6 +45,7 @@ translations:
   delete_page: Apagar página
   select_new_page_type: Selecione novo tipo de página
   parent: Mãe
+  or: ou
 
   update_available: atualização disponível
   up_to_date: está em dia
