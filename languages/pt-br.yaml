@@ -29,6 +29,7 @@ translations:
   # Entradas
   entry: Entrada
   entries: Entradas
+  create: Criar
   new_entry: Nova entrada
   create_entry: Criar entrada
   delete_entry: Excluir entrada
