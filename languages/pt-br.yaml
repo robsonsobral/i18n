@@ -10,7 +10,7 @@ translations:
   add: Adicionar
   delete: Excluir
   list: Listar
-  none: Nenhum
+  none: Nenhum(a)
   view: Visualizar
   in: em
 
@@ -120,8 +120,8 @@ translations:
   security_files_security_check: Verificação de segurança dos arquivos de sistema
   folder_file: Pasta/Arquivo
   action_required: Ação necessária
-  secure: Seguro
-  unsecure: Inseguro
+  secure: Seguro(a)
+  unsecure: Inseguro(a)
   user_accounts_security_check: Verificação de segurança das contas de usuário
   user_file: Arquivo de Usuário
   encrypted: Encriptado
