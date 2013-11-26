@@ -94,7 +94,7 @@ translations:
   clear_logs: Excluir registros
 
   # Mensagens, Erros & Confirmações
-  admin_404: 'A página não existe, então nós enviamos você para este local.'
+  admin_404: 'A página não existe, então nós te direcionamos para cá.'
   already_exists: já existe
   is_required: é obrigatório
   content_not_writable: A pasta de conteúdo não possui permissão de escrita
