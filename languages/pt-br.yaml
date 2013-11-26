@@ -43,7 +43,7 @@ translations:
   site_pages: Páginas do site
   new_child_page: Nova página filha
   view_page: Ver página
-  delete_page: Apagar página
+  delete_page: Excluir página
   select_new_page_type: Selecione novo tipo de página
   parent: Mãe
   or: ou
@@ -91,7 +91,7 @@ translations:
 
   # Logs
   site_logs: Registros do site
-  clear_logs: Apagar registros
+  clear_logs: Excluir registros
 
   # Mensagens, Erros & Confirmações
   admin_404: 'A página não existe, então nós enviamos você para este local.'
