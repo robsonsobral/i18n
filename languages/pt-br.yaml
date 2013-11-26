@@ -99,7 +99,7 @@ translations:
   is_required: é obrigatório
   content_not_writable: A pasta de conteúdo não possui permissão de escrita
   users_not_writable: A pasta de Usuários não possui permissão de escrita
-  msg_password_encrypted: 'A senha foi encriptada. Por favor tente efetuar seu login novamente.'
+  msg_password_encrypted: 'A senha foi criptografada. Por favor, tente entrar novamente.'
   incorrect_username: Nome de usuário não-localizado
   incorrect_password: Senha incorreta
   incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
@@ -124,9 +124,9 @@ translations:
   unsecure: Inseguro(a)
   user_accounts_security_check: Verificação de segurança das contas de usuário
   user_file: Arquivo de Usuário
-  encrypted: Encriptado
-  unencrypted: Não-encriptado
-  action_encrypt_password: Senha encriptada
+  encrypted: Criptografada
+  unencrypted: Não criptografada
+  action_encrypt_password: Criptografar senha
   security_app_folder: "Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
   security_config_folder: "Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta."
   security_settings_files: "Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta."
