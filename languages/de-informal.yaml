@@ -1,0 +1,187 @@
+#####################################
+#
+#  Informal German (by maxx & felics) 
+#  #!tB declares Translations I'm not happy with
+# ###################################
+
+translations:
+
+  # Universal
+  add: Hinzufügen
+  delete: Löschen
+  list: Alle anzeigen
+  none: Keine #!tB
+  view: Anzeigen
+  in: in
+
+  # Nav
+  home: Home
+  dashboard: Dashboard
+  pages: Seiten
+  content: Inhalt
+  members: Mitglieder
+  account: Account
+  system: System
+  help: Hilfe
+  view_site: Seite anzeigen
+  logout: Logout
+  logs: Logs
+
+  # Entries
+  entry: Eintrag
+  entries: Einträge
+  create: Erstellen
+  new_entry: Neuer Eintrag
+  editing_entry: Du bearbeitest
+  create_entry: Eintrag erstellen
+  delete_entry: Eintrag löschen
+  view_entry: Eintrag anzeigen
+  list_entries: Einträge auflisten
+  take_action: Aktion
+  delete_entries: Einträge löschen
+  confirm_action: Ja, lösche diese Einträge.
+
+  # Pages
+  page: Seite
+  edit_page: Seite bearbeiten
+  editing_page: Du bearbeitest die Seite
+  new_top_level_page: Neue Hauptseite
+  site_pages: Seiten deiner Website
+  new_child_page: Neue Unterseite
+  view_page: Seite anzeigen
+  delete_page: Seite löschen
+  select_new_page_type: Neue Seitenart auswählen
+  parent: Übergeordnet
+  or: oder
+  pagedelete_confirm: "Bist du sicher, dass du diese Einträge löschen möchtest?"
+
+  update_available: Update verfügbar
+  up_to_date: Auf dem neuesten Stand
+  offline: Das Controlpanel ist zur Zeit offline.
+
+  # Publish
+  title: Titel
+  slug: Slug
+  date: Datum
+  number: Nummer
+  editing: in Bearbeitung #!tB
+  enter_title: Titel eingeben...
+  order_number: Ordnungsnummer #!tB
+  publish_date: Veröffentlichungsdatum 
+  publish_time: Veröffentlichungszeitpunkt 
+  save: Speichern
+  save_publish: 'Speichern & Veröffentlichen'
+  content: Inhalt
+  new: Neu
+
+  # Statuses
+  status: Status
+  live: Veröffentlicht
+  draft: Entwurf
+  hidden: Versteckt
+
+  # Members and forms
+  login: Login
+  admin: Admin
+  email: Email
+  username: Benutzername
+  password: Passwort
+  password_confirmation: Passwortbestätigung
+  type_again: 'Bitte noch einmal eingeben'
+  encrypt_password: Passwort verschlüsseln?
+  first_name: Vorname
+  last_name: Nachname
+  biography: Biografie
+  role: Rolle
+  member: Mitglied
+  new_member: Neues Mitglied
+  creating_member: Du erstellst ein neues Mitglied
+  editing_member: "Du bearbeitest folgendes Mitglied:"
+  
+  # Logs
+  site_logs: Seiten-Logs
+  clear_logs: Alle Logs entfernen
+  log_file: Dein Log-File
+  log_unwritable: ist nicht schreibbar und kann deswegen nicht erstellt werden.
+  showing: Anzeige #!tb
+  messages_all: alle Meldungen
+  messages_debug: nur Debug-Meldungen
+  messages_info: nur Info-Meldungen
+  messages_warn: nur Warnungen
+  messages_error: nur Fehlermeldungen
+  messages_fatal: nur fatale Meldungen
+  info_plus: Info-Meldungen oder schlimmer
+  warn_plus: Warnungen oder schlimmer
+  error_plus: Fehlermeldungen oder schlimmer
+  messages_happened: geloggt am
+  messages_level: Level
+  messages_when: Wann
+  messages_what: Ursache der Meldung
+  messages_page: Seite
+  messages_message: Meldung
+  log_filter_nomessages: "Das Log-File existiert, beinhaltet aber keine Meldungen dieser Kategorie."
+  log_nomessages: "Das Log-File existiert, beinhaltet aber keine Meldungen."
+  log_nomessages_logged: "Es wurden noch keine Meldungen geloggt."
+  logging_yes: "Diese Seite <strong>loggt</strong> Meldungen."
+  logging_no: "Diese Seite <strong>loggt keine</strong> Meldungen."
+  log_messages: "Es werden Meldungen ab der folgenden Stufe angezeigt:"
+  log_turning_on: "Um das Log zu nutzen, stelle <code>_log_enabled</code> auf <code>true</code> in <code>_config/settings.yaml</code>."
+
+  # Messages, Errors & Confirmations
+  site_unlicensed: Diese Seite ist unlizenziert. Bitte kaufe eine Lizenz und aktiviere diese.
+  admin_404: 'Diese Seite existiert nicht.'
+  already_exists: existiert bereits
+  is_required: ist erforderlich
+  content_not_found: "Inhalt nicht gefunden!"
+  content_not_writable: Inhaltsordner ist nicht schreibbar
+  users_not_writable: Benutzerordner ist nicht schreibbar
+  msg_password_encrypted: 'Password wurde verschlüsselt. Bitte noch einmal einloggen.'
+  password_confirmation_required: "und eine Bestätigung ist erforderlich."
+  password_confirmation_match: "und die Bestätigung stimmt nicht überein"
+  incorrect_username: Benutzername nicht gefunden
+  incorrect_password: Falsches Passwort
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuche es noch einmal.'
+  entry_deleted: 'Eintrag erfolgreich gelöscht!'
+  entries_deleted: "Einträge erfolgreich gelöscht!"
+  page_deleted: "Seite erfolgreich gelöscht!"
+  page_unable_delete: "Seite kann nicht gelöscht werden!"
+  member_deleted: "Mitglied erfolgreich gelöscht!"
+  page_saved: 'Seite erfolgreich gespeichert!'
+  entry_saved: 'Eintrag erfolgreich gespeichert!' 
+  member_saved: 'Mitglied erfolgreich gespeichert!'
+  viewing_all: Du betrachtest alle
+
+  error: Fehler
+  error_form_submission: 'Ein Fehler verhindert das Senden des Formulars'
+  are_you_sure: Bist du sicher? Dies kann nicht rückgängig gemacht werden.
+  access_denied: Zugriff verweigert
+  enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
+
+  # Security
+  security_status: System Status
+  security_files_security_check: Sicherheitstest der Systemdateien
+  secure_status: Sicherheitsstatus
+  password_status: Passwortstatus
+  curl_needed: "Du musst cURL auf diesem Server aktivieren um deine Sicherheit automatisch zu testen."
+  folder_file: Ordner/Datei
+  action_required: Aktion erforderlich
+  secure: Sicher
+  unsecure: Unsicher
+  user_accounts_security_check: Sicherheitstest der Benutzeraccounts 
+  user_file: Benutzerdatei #!tB
+  encrypted: Verschlüsselt
+  unencrypted: Unverschlüsselt
+  action_encrypt_password: Passwort verschlüsseln
+  security_app_folder: "Dein Anwendungsordner ist über das Web erreichbar. Es ist nicht kritisch, aber du solltest diesen Ordner schützen.",
+  security_config_folder: "Dein Einstellungsordner(_config) ist über das Web erreichbar. Es wichtig, dass du diesen Ordner schützt.",
+  security_settings_files: "Deine Einstellungsdatei(settings) ist über das Web erreichbar.  Es wichtig, dass du diese Datei schützt.",
+  security_user_files: "Deine Benutzerdateien sind über das Web erreichbar.  Es wichtig, dass du diese Dateien schützt.",
+  security_content_folder: "Dein Inhaltsordner ist über das Web erreichbar. Es ist nicht kritisch, aber du solltest diesen Ordner schützen.",
+  security_template_files: "Deine Gestaltungsvorlagen(_templates) sind über das Web erreichbar. Es ist nicht kritisch, aber du solltest diese Dateien schützen.",
+  security_logs_folder: "Dein Log-Ordner ist über das Web erreichbar.  Es wichtig, dass du diesen Ordner schützt.",
+  
+  # Location
+  location_name: Name des Ortes
+  latitude: Breitengrad
+  longitude: Längengrad
+  
