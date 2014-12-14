@@ -96,13 +96,13 @@ translations:
   member: Usuário
   new_member: Novo usuário
   creating_member: Criando usuário
-  editing_member: "Editando usuário: "
+  editing_member: 'Editando usuário: '
 
   # Logs
   site_logs: Registros do site
   clear_logs: Excluir registros
   log_file: Arquivo de registros
-  log_unwritable: sem permissão de escrita. Portanto, nada pode ser registrado
+  log_unwritable: 'sem permissão de escrita. Portanto, nada pode ser registrado'
   showing: exibindo
   messages_all: todas as mensagens
   messages_debug: 'apenas mensagens de <i>debug</i>'
@@ -119,33 +119,33 @@ translations:
   messages_what: O que causou isso
   messages_page: Página
   messages_message: Mensagem
-  log_filter_nomessages: "Há registros, mas nenhum correspondente a esse filtro"
-  log_nomessages: "O arquivo de registros existe, mas está vazio."
-  log_nomessages_logged: "Nada foi registrado"
-  logging_yes: "Esse site <strong>está</strong> registrando."
-  logging_no: "Esse site <strong>não está</strong> registrando"
-  log_messages: "Mensagem do seguinte nível ou pior: "
-  log_turning_on: "Para habilitar os registros, configure <code>_log_enabled</code> como <code>true</code> em <code>_config/settings.yaml</code>."
+  log_filter_nomessages: 'Há registros, mas nenhum correspondente a esse filtro'
+  log_nomessages: 'O arquivo de registros existe, mas está vazio.'
+  log_nomessages_logged: 'Nada foi registrado'
+  logging_yes: 'Esse site <strong>está</strong> registrando.'
+  logging_no: 'Esse site <strong>não está</strong> registrando'
+  log_messages: 'Mensagem do seguinte nível ou pior: '
+  log_turning_on: 'Para habilitar os registros, configure <code>_log_enabled</code> como <code>true</code> em <code>_config/settings.yaml</code>.'
 
   # Mensagens, Erros & Confirmações
-  site_unlicensed: Esse site não é licenciado. Por favor, compre e informe sua chave de licença.
+  site_unlicensed: 'Esse site não é licenciado. Por favor, compre e informe sua chave de licença.'
   admin_404: 'A página não existe, então nós te direcionamos para cá.'
   already_exists: já existe
   is_required: é obrigatório
-  content_not_found: "Conteúdo não encontrado!"
+  content_not_found: 'Conteúdo não encontrado!'
   content_not_writable: A pasta de conteúdo não possui permissão de escrita
   users_not_writable: A pasta de Usuários não possui permissão de escrita
   msg_password_encrypted: 'A senha foi criptografada. Por favor, tente entrar novamente.'
-  password_confirmation_required: "e a confirmação é necessária"
-  password_confirmation_match: "e a confirmação não coincide"
+  password_confirmation_required: 'e a confirmação é necessária'
+  password_confirmation_match: 'e a confirmação não coincide'
   incorrect_username: Nome de usuário não-localizado
   incorrect_password: Senha incorreta
   incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
   entry_deleted: 'Entrada excluída!'
-  entries_deleted: "Entradas excluídas!"
-  page_deleted: "Página excluída!"
-  page_unable_delete: "Incapaz de excluir a página."
-  member_deleted: "Usuário excluído!"
+  entries_deleted: 'Entradas excluídas!'
+  page_deleted: 'Página excluída!'
+  page_unable_delete: 'Incapaz de excluir a página.'
+  member_deleted: 'Usuário excluído!'
   page_saved: 'Página salva!'
   entry_saved: 'Entrada salva!'
   member_saved: 'Usuário registrado!'
@@ -162,7 +162,7 @@ translations:
   security_files_security_check: Verificação de segurança dos arquivos de sistema
   secure_status: Status
   password_status: Status
-  curl_needed: "Você precisa do cURL habilitado no servidor para testar sua segurança"
+  curl_needed: 'Você precisa do cURL habilitado no servidor para testar sua segurança'
   folder_file: Pasta/Arquivo
   action_required: Ação necessária
   secure: Seguro(a)
@@ -172,13 +172,13 @@ translations:
   encrypted: Criptografada
   unencrypted: Não criptografada
   action_encrypt_password: Criptografar senha
-  security_app_folder: "Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
-  security_config_folder: "Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta."
-  security_settings_files: "Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta."
-  security_user_files: "Seu arquivos de usuário estão acessíveis na web. É crítico que você proteja esta pasta..."
-  security_content_folder: "Sua pasta de conteúdo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
-  security_template_files: "Seus arquivos de templates de temas estão acessíveis na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
-  security_logs_folder: "Os registros do site estão acessíveis na web. É crítico que você proteja esta pasta."
+  security_app_folder: 'Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.'
+  security_config_folder: 'Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta.'
+  security_settings_files: 'Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta.'
+  security_user_files: 'Seu arquivos de usuário estão acessíveis na web. É crítico que você proteja esta pasta...'
+  security_content_folder: 'Sua pasta de conteúdo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.'
+  security_template_files: 'Seus arquivos de templates de temas estão acessíveis na web. Apesar de não crítico, a melhor prática é proteger esta pasta.'
+  security_logs_folder: 'Os registros do site estão acessíveis na web. É crítico que você proteja esta pasta.'
 
   # Location
   location_name: Nome do local
