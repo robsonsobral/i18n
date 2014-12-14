@@ -127,10 +127,6 @@ translations:
   log_messages: "Mensagem do seguinte nível ou pior: "
   log_turning_on: "Para habilitar os registros, configure <code>_log_enabled</code> como <code>true</code> em <code>_config/settings.yaml</code>."
 
-  # Logs
-  site_logs: Registros do site
-  clear_logs: Apagar registros
-
   # Mensagens, Erros & Confirmações
   site_unlicensed: Esse site não é licenciado. Por favor, compre e informe sua chave de licença.
   admin_404: 'A página não existe, então nós te direcionamos para cá.'
