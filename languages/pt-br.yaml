@@ -13,6 +13,7 @@ translations:
   none: Nenhum(a)
   view: Visualizar
   in: em
+  remove: Remover
 
   # Navegação
   home: Início
@@ -40,6 +41,7 @@ translations:
   take_action: Ações
   delete_entries: Excluir entradas
   confirm_delete: Tenho certeza
+  confirm_action: Tenho certeza
 
   # Páginas
   page: Página
@@ -53,6 +55,7 @@ translations:
   select_new_page_type: Selecione novo tipo de página
   parent: Mãe
   or: ou
+  and: e
   pagedelete_confirm: 'Tem certeza de que quer excluir essa página?'
 
   update_available: atualização disponível
@@ -71,6 +74,7 @@ translations:
   publish_time: Horário da publicação
   save: Salvar
   save_publish: 'Salvar & publicar'
+  save_publish_continue: 'Salvar & continuar'
   content: Conteúdo
   new: Novo
 
@@ -87,6 +91,7 @@ translations:
   username: Usuário
   password: Senha
   password_confirmation: Confirmação de senha
+  change_password: Mudar senha
   type_again: 'Digite novamente, por favor'
   encrypt_password: Encriptar a senha?
   first_name: Nome
@@ -97,6 +102,9 @@ translations:
   new_member: Novo usuário
   creating_member: Criando usuário
   editing_member: 'Editando usuário: '
+  reset_password_url_invalid: Essa URL é inválida
+  reset_password_url_expired: Esse link expirou
+  member_doesnt_exist: Usuário inexistente
 
   # Logs
   site_logs: Registros do site
@@ -138,6 +146,7 @@ translations:
   msg_password_encrypted: 'A senha foi criptografada. Por favor, tente entrar novamente.'
   password_confirmation_required: 'e a confirmação é necessária'
   password_confirmation_match: 'e a confirmação não coincide'
+  password_confirmation_does_not_match: 'Senha e confirmação não coincidem.'
   incorrect_username: Nome de usuário não-localizado
   incorrect_password: Senha incorreta
   incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
@@ -149,6 +158,8 @@ translations:
   page_saved: 'Página salva!'
   entry_saved: 'Entrada salva!'
   member_saved: 'Usuário registrado!'
+  invalid_username: 'O nome de usuário contém caracteres inválidos.'
+  username_already_exists: 'Já existe alguém com esse nome de usuário.'
   viewing_all: 'Visualizando:'
 
   error: Erro
@@ -156,6 +167,16 @@ translations:
   are_you_sure: Tem certeza? Isto não pode ser desfeito.
   access_denied: Acesso bloqueado
   enable_curl: cURL deve ser ativado para executar um teste de segurança.
+
+  # File-upload errors
+  upload_error_ini_size: Falha no envio de arquivo. O tamanho excede o permitido pelas configurações do PHP nesse servidor.
+  upload_error_form_size: Falha no envio de arquivo. O tamanho excede o permitido pelo parâmetro `MAX_FILE_SIZE` nesse formulário.
+  upload_error_err_partial: Falha no envio de arquivo. Envio apenas parcial de arquivo.
+  upload_error_no_file: Falha no envio de arquivo. Nenhum arquivo escolhido para envio.
+  upload_error_no_temp_dir: Falha no envio de arquivo. Nenhum diretório temporário especificado.
+  upload_error_cant_write: Falha no envio de arquivo. Não foi permitido gravar no diretório temporário.
+  upload_error_extension: Falha no envio de arquivo. Uma extensão do PHP impediu a continuidade do envio.
+  upload_error_unknown: Falha no envio de arquivo por razões desconhecidas.
 
   # Sistema
   security_status: Status do sistema
@@ -184,3 +205,16 @@ translations:
   location_name: Nome do local
   latitude: Latitude
   longitude: Longitude
+
+  # Raven
+  export_csv: Exportar para CSV
+  raven: Raven
+  raven_forms: Formulários do Raven
+  form: Formulário
+  submissions: Envios
+
+  # File
+  upload_file: Enviar arquivo
+  drop_your_file: Solte seu arquivo
+  max_files_reached: Máximo de arquivos atingido
+  choose_existing_file: Escolha um arquivo existente
